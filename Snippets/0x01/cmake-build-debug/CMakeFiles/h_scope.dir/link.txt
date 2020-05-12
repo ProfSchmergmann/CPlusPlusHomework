@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/h_scope.dir/h_scope.cpp.o  -o h_scope.exe -Wl,--out-implib,libh_scope.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

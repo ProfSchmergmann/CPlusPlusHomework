@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/c_call_by_ref.dir/c_call_by_ref.cpp.o  -o c_call_by_ref.exe -Wl,--out-implib,libc_call_by_ref.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,7 +1,0 @@
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/blue_canyon.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/sanborn_cliff.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/west_rose_cliff.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/beverly_hollow.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x01/uebungen/cmake-build-debug/CMakeFiles/pine_point.dir

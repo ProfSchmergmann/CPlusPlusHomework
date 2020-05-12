@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/a_references.dir/a_references.cpp.o  -o a_references.exe -Wl,--out-implib,liba_references.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

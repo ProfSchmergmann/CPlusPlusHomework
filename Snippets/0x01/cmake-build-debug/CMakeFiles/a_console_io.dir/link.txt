@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/a_console_io.dir/a_console_io.cpp.o  -o a_console_io.exe -Wl,--out-implib,liba_console_io.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

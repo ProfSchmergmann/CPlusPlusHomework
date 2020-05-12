@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/work_switch.dir/work_switch.cpp.o  -o work_switch.exe -Wl,--out-implib,libwork_switch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

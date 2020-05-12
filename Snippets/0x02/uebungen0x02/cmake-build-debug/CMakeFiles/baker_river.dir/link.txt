@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/baker_river.dir/baker_river.cpp.o  -o baker_river.exe -Wl,--out-implib,libbaker_river.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

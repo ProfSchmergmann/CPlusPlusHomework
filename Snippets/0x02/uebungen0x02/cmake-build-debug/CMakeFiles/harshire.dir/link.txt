@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/harshire.dir/harshire.cpp.o  -o harshire.exe -Wl,--out-implib,libharshire.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

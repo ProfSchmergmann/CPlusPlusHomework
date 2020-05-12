@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/blue_canyon.dir/blue_canyon.cpp.o  -o blue_canyon.exe -Wl,--out-implib,libblue_canyon.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,5 +1,0 @@
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/uebungen0x02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/uebungen0x02/cmake-build-debug/CMakeFiles/harshire.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/uebungen0x02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/uebungen0x02/cmake-build-debug/CMakeFiles/baker_river.dir
-/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/uebungen0x02/cmake-build-debug/CMakeFiles/elkford.dir

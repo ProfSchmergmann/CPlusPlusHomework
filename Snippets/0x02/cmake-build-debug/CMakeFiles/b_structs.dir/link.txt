@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/b_structs.dir/b_structs.cpp.o  -o b_structs.exe -Wl,--out-implib,libb_structs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
