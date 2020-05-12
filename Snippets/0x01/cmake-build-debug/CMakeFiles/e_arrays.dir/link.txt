@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/e_arrays.dir/e_arrays.cpp.o  -o e_arrays.exe -Wl,--out-implib,libe_arrays.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

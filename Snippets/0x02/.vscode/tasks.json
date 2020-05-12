@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dockermake",
+            "type": "shell",
+            "command": "docker run --rm -it -v ${workspaceFolder}:/cpp -e target=/cpp/${relativeFileDirname}/${fileBasenameNoExtension}.out -e makefile=/cpp/${relativeFileDirname}/Makefile gcc-9.3.0",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "localmake",
+            "type": "shell",
+            "command": "make ${relativeFileDirname}/${fileBasenameNoExtension}.out && ${relativeFileDirname}/${fileBasenameNoExtension}.out",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ]
+}

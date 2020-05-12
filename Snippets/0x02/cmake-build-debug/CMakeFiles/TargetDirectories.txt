@@ -1,0 +1,7 @@
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/b_structs.dir
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/e_exception.dir
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/a_references.dir
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/c_call_by_ref.dir
+/cygdrive/c/Users/sberg/Documents/Uni/C++/cpp_test/0x02/cmake-build-debug/CMakeFiles/d_auto.dir

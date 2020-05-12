@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/pine_point.dir/pine_point.cpp.o  -o pine_point.exe -Wl,--out-implib,libpine_point.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

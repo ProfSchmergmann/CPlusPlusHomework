@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/e_exception.dir/e_exception.cpp.o  -o e_exception.exe -Wl,--out-implib,libe_exception.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

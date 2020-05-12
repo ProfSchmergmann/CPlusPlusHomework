@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/b_primitives.dir/b_primitives.cpp.o  -o b_primitives.exe -Wl,--out-implib,libb_primitives.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

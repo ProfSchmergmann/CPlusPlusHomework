@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/g_functions.dir/g_functions.cpp.o  -o g_functions.exe -Wl,--out-implib,libg_functions.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

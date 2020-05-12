@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/f_if_for_while.dir/f_if_for_while.cpp.o  -o f_if_for_while.exe -Wl,--out-implib,libf_if_for_while.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
