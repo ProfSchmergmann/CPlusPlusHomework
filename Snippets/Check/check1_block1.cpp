@@ -73,12 +73,18 @@ multi_set(unsigned int max_keys) : m_max_keys{max_keys} {
  *      Nutzen sie auto& und range-based-for, um über die Liste zu iterieren.
  */
 
-index_type add(const index_type &id, const string initializer_list[]) {
+index_type add(const index_type id, const vector_type &initializer_list) {
         if (m_map.find(id) != m_map.end()) {
-            auto it = m_map.find(id)->second.end();
-            for (int i = 0; i < initializer_list->size(); ++i) {
-                m_map.find(id)->second.insert(i,initializer_list[i]);
+            vector_type& temp = m_map.find(id)->second;
+            for (auto& x : initializer_list) {
+                temp.push_back(x);
             }
+        } else {
+            if (m_map.size() >= max_keys)
+            {
+                throw runtime_error("Too many keys");
+            }
+            m_map[id] = initializer_list;
         }
 
     return id;
@@ -86,24 +92,25 @@ index_type add(const index_type &id, const string initializer_list[]) {
 
 // g) Memberfunktion add mit ID make_id()
 
-void add(const string initializer_list[]) {
+void add(const vector_type &initializer_list) {
     this->add(make_id(), initializer_list);
 }
 
 // h) Memberfunktion get um map abzufragen
 
-const vector_type get(index_type id) {
-    return m_map.find(id)->second;
+vector_type get(index_type id) {
+    auto temp = m_map.cfind(id);
+    if (temp == m_map.cend())
+    {
+        return vector_type{};
+    } 
+    return temp->second;
 }
 
 // i) Memberfunktion size um Anzahl IDs abzufragen
 
-const unsigned int &size() {
-    int temp{0};
-    for(auto x : m_map) {
-        temp++;
-    }
-    return temp;
+size_t size() const {
+    return m_map.size();
 }
 
 };
@@ -129,8 +136,8 @@ ostream& operator<<(ostream& os, const vector_type& v) {
 
 ostream& operator<<(ostream& os, const multi_set& s) {
     int size = s.size();
-    for(int i=0; i<size +1; i++) {
-
+    for(auto& x:m_map) {
+        os << x->first << x->second << endl;
     }
     return os;
 }
