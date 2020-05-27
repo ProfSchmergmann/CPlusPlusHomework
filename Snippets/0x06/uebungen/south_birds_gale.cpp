@@ -14,6 +14,7 @@
  */
 
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
@@ -21,7 +22,7 @@ void umgekehrteAusgabe(char *satz[], int size);
 
 void cStringUmkehren(char *satz[], int size);
 
-void worteUmkehren(char* wort, int size);
+char *worteUmkehren(const char *wort, int size);
 
 int main() {
 
@@ -31,6 +32,7 @@ int main() {
     char *c4{"Satz"};
     char *satz[4]{c1, c2, c3, c4};
     umgekehrteAusgabe(satz, 4);
+    cout << endl;
     cStringUmkehren(satz, 4);
     for (int i = 0; i < 4; ++i) {
         for (const char *p = satz[i]; *p; p++) {
@@ -38,9 +40,11 @@ int main() {
         }
         cout << endl;
     }
-    worteUmkehren(satz[0], 4);
-    cout << satz[0] << endl;
-
+    cout << endl;
+    const char *temp = worteUmkehren(satz[0], 4);
+    for (const char *p = temp; *p; p++) {
+        cout << *p;
+    }
 }
 
 void umgekehrteAusgabe(char *satz[], int size) {
@@ -50,9 +54,9 @@ void umgekehrteAusgabe(char *satz[], int size) {
 }
 
 void cStringUmkehren(char *satz[], int size) {
-    int j = size-1;
+    int j = size - 1;
     int i = 0;
-    while (i != j+1) {
+    while (i != j + 1) {
         char *temp = satz[i];
         satz[i] = satz[j];
         satz[j] = temp;
@@ -61,14 +65,14 @@ void cStringUmkehren(char *satz[], int size) {
     }
 }
 
-void worteUmkehren(char* wort, int size) {
-    int j = size-1;
+char *worteUmkehren(const char *wort, int size) {
+    char *temp = new char[size];
+    int j = size - 1;
     int i = 0;
-    while (i != j+1) {
-        char *temp = &wort[i];
-        &wort[i] = &wort[j];
-        &wort[j] = temp;
+    do {
+        temp[i] = wort[j];
         i++;
         j--;
-    }
+    } while (i != size);
+    return temp;
 }
